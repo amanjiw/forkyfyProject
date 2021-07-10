@@ -1,0 +1,21 @@
+{
+  "name": "forkyfiy",
+  "version": "1.0.0",
+  "description": "food application",
+  "default": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "amanj ghaderi",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.15.2",
+    "parcel": "^2.0.0-beta.2",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2"
+  }
+}
