@@ -98,7 +98,11 @@ const controlAddRecipe = async function (newRecipe) {
 }
 
 
+const newfeacher = function(){
 
+  console.log("its git exercise")
+
+}
 
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
@@ -108,6 +112,7 @@ const init = function () {
   bookmarkView.addHandlerBookmark(constrolBookmarks);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUploadRecipe(controlAddRecipe);
+  newfeacher();
 }
 
 init();
