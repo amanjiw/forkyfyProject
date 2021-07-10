@@ -100,7 +100,7 @@ const controlAddRecipe = async function (newRecipe) {
 
 const newfeacher = function(){
 
-  console.log("its git exercise")
+  console.log("Developed By Amanji :)")
 
 }
 
